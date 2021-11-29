@@ -1,0 +1,1 @@
+(let ((inches-to-moon (+ 238900 (- 5280 12)))) (print (+ inches-to-moon 2)))

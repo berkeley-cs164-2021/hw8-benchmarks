@@ -1,0 +1,8 @@
+(define (f x)
+	(+ 1 (g 2)))
+(define (g x)
+	(+ x 1))
+(if (= 10 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 0)))))))))))
+	(print (+ (* (f (read-num)) (f (read-num))) (* (f (read-num)) (f (read-num)))))
+	(print (+ (* (g (read-num)) (g (read-num))) (* (g (read-num)) (g (read-num)))))
+)

@@ -1,0 +1,1 @@
+(define (f a b) (+ a b)) (define (g a b c) (- (f a b) (f b c))) (define (h a) (g (f a a) a (g a a a))) (let ((x (read-num))) (if (< x 0) (h x) (h (- x 2))))

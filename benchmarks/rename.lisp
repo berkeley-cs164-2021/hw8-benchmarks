@@ -1,0 +1,13 @@
+(define (foo x y)
+(let ((x 3))
+   (let ((y 4))
+     (let ((x (+ x 3)))
+        (let ((y 6))
+           (+ x y))))) 
+)
+
+(let ((x 3))
+   (let ((y 4))
+     (let ((x 2))
+        (let ((y 6))
+           (+ x y))))) 

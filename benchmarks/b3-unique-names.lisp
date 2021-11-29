@@ -1,0 +1,1 @@
+(define (z a b c) (+ a (+ b c))) (define (y a b c) (+ a (- b c))) (define (x a b c) (- a (+ b c))) (print (+ (z 1 2 3) (+ (y 2 3 1) (x 3 1 2))))

@@ -1,0 +1,1 @@
+(empty? (right (pair (+ (- 5 (add1 4)) (sub1 6)) (zero? (left (pair (+ 9 (- 19 10)) ()))))))

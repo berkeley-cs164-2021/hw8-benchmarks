@@ -1,0 +1,1 @@
+(let ((x 2)) (do (print x) (print x) (print x)))
