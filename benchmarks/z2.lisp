@@ -1,0 +1,1 @@
+(define (fib x) (if (= x 0) 0 (if (= x 1) 1 (+ x (fib (- x 1)))))) (fib 10)

@@ -1,1 +1,1 @@
-(define (strippair arg) (if (empty? arg) 5 (strippair (right arg)))) (print (strippair (pair 3 (pair 4 (pair 5 (pair 6 (pair 7 ())))))))
+(define (f x) (if (< x 20000) (f (add1 x)) 2000)) (f 0)

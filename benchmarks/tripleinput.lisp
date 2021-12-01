@@ -1,0 +1,1 @@
+(+ (read-num) (+ (read-num) (+ 2 (read-num))))

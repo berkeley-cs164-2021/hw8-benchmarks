@@ -1,0 +1,1 @@
+(define (what x) (if (= x 76) 0 (if (= x 33) 1 (+ x (what (- x 1)))))) (what 100)

@@ -5,4 +5,4 @@
   )
 )
 
-(print (loop (read-num) 500000))
+(print (loop (read-num) 5000000))

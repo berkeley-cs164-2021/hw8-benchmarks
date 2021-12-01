@@ -1,1 +1,1 @@
-(define (vvadd a b n) (if (= n 0) (nil) (pair (+ (left a) (left b)) (vvadd (right a) (right b) (sub1 n))))) (let ((a (pair 1 (pair 2 (pair 3 ( pair 4 (pair 5 nil))))))) (vvadd a a 5))
+(define (vvadd a b n) (if (= n 0) () (pair (+ (left a) (left b)) (vvadd (right a) (right b) (sub1 n))))) (let ((a (pair 1 (pair 2 (pair 3 ( pair 4 (pair 5 ()))))))) (vvadd a a 5))
