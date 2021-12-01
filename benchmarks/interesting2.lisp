@@ -1,5 +1,0 @@
-(define (f x)
-	(+ 1 (g 2)))
-(define (g x)
-	(+ x 1))
-(print (+ (* (f (read-num)) (f (read-num))) (* (f (read-num)) (f (read-num)))))

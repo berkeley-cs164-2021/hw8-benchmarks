@@ -13,6 +13,6 @@
 )
 (define (bench-k-times k) (if (< k 0) 0 (do (bench 10000) (bench-k-times (- k 1)))))
 (do 
-(bench-k-times 10000)
+(bench-k-times 1000)
 (print (bench 10000))
 ) 
