@@ -7,15 +7,6 @@
 (define (find-last-set n)
   (find-last-set-helper n 1 0))
 
-(define (find-left-set n)
-  (if (zero? n)
-    0
-    (let ((b (find-last-set n)))
-      (let ((pow2 (lsl 1 b)))
-        (if (= n pow2)
-          b
-          (find-left-set (- n pow2)))))))
-
 (define (find-first-set n)
   (if (zero? n)
     0

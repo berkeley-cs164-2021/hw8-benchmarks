@@ -1,0 +1,1 @@
+(define (eq x y) (= x y)) (print (if (eq 1 0) (eq 1 0) (eq 1 0)))

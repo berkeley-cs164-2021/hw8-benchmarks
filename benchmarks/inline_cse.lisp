@@ -1,0 +1,1 @@
+(define (double x) (+ x x)) (print (+ (double 5) (+ (double 5) (double 5))))

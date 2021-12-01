@@ -5,4 +5,4 @@
   )
 )
 
-(print (loop (read-num) 5000000))
+(print (loop 3 333333))

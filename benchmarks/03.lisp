@@ -1,0 +1,15 @@
+(define (f x y) (- (add1 x) y))
+(define (g x) (f x 5))
+(define (h y) (g y))
+(define (add2 x) (+ x 2))
+
+(do
+  (let ((x (+ 1 (add1 (- 10 (+ 3 2)))))) (print (h x)))
+  (let ((y (+ 1 (add1 (- 10 (+ 3 2)))))) (print (h y)))
+  (let ((z (h 5)))
+    (let ((a (h 5))) (print (h a)))
+  )
+  (let ((a (add2 1)))
+    (if (< a 2) (print a) (print 0))
+  )
+)

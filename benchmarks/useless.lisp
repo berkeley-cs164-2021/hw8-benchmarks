@@ -8,4 +8,4 @@
   )
 )
 
-(print (loop (read-num) 20))
+(print (loop (read-num) 24))
